@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient( rgb(196, 196, 82), rgb(189, 100, 100), rgb(56, 138, 56));
+}
+
+.app {
+  width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.app h1{
+  text-transform: uppercase;
+  font-size: 70px;
+  color: rgba(127, 255, 212, 0.685);
+  margin-bottom: 30px;
+}
+
+.app input{
+  border-radius: 25px;
+  padding: 5px 20px;
+  border: none;
+  outline: 0;
+  box-shadow: 5px 2px 20px rgba(137, 43, 226, 0.377);
+  margin-bottom: 30px;
+}
+
+.app input:hover{
+  background-color: rgba(196, 108, 108, 0.76);
+}
+
+.app ul li{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 2px dotted rgb(81, 81, 148);
+}
+
+.app ul li:last-child{
+  border-bottom: none;
+}
+
+.app ul li i{
+  color: aquamarine;
+  cursor: pointer;
+}
+
+.app ul li i:hover{
+  color: rgb(84, 167, 167);
+}
+
+
